@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Website Responsive</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <h1 align="center">Selamat Datang DI Pepustakaan XYZ</h1>
+        </div>
+        <div class="main">
+            <div class="left">
+                <h3 align="center">Menu</h3>
+                <ul>
+                    <li><a href="login.html">Login</a></li>
+                    <li><a href="#" id="homeLink">Home</a></li>
+                    <li><a href="daftarbuku.html">Daftar Buku</a></li>
+                    
+                </ul>
+            </div>
+            <div class="middle">
+                <h3 align="center">Berita</h3>
+                <p align="center"><strong><a href="#">Membuat Design Web Responsive</a></strong></p>
+                <p><img src="images/download.jpeg" alt=""></p>
+                <p><a href="https://elibrary.bsi.ac.id/">Baca Selengkapnya >> </a></p>
+            </div>
+
+            <div class="right">
+                <h3 align="center">Buku Terpopuler</h3>
+                <p>
+                    <ul>
+                        <li><a href="https://www.rumahmedia.com/insights/mengenal-apa-itu-web-design-dan-cara-melakukannya">Web Design</a></li>
+                        <li><a href="https://www.binaracademy.com/blog/bahasa-pemrograman-terpopuler">Pemrograman</a></li>
+                        <li><a href="https://www.dewaweb.com/blog/apa-itu-database/">Database</a></li>
+                    </ul>
+                </p>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p align="center">Coppright &copy; 2018 Belajar CSS Responsive </p>
+        </div>
+    </div>
+
+    <script>
+        // Menambahkan event listener untuk tombol "Home"
+        document.getElementById('homeLink').addEventListener('click', function() {
+            // Mengarahkan ke halaman utama (gantilah dengan URL yang sesuai)
+            window.location.href = 'index.html';
+        });
+    </script>
+    
+</body>
+
+</html>
